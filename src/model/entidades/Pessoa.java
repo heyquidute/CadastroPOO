@@ -28,8 +28,8 @@ public class Pessoa implements Serializable{
     }
     
     protected String exibir(){
-        System.out.println("ID: "+id);
         System.out.println("Nome: "+nome);
+        System.out.println("ID: "+id);
         return null;
     }
 }

@@ -29,8 +29,9 @@ public class PessoaFisica extends Pessoa implements Serializable {
     @Override
     public String exibir(){
         super.exibir();
-        return "CPF: "+cpf+
+        System.out.println("CPF: "+cpf+
                 "\n"+
-                "Idade: "+idade;
+                "Idade: "+idade);
+        return null;
     }
 }
